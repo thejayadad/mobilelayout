@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    overflow-x: hidden;
+}
+header {
+    background: red;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+}
+
+main {
+    background: orange;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+footer {
+    background: green;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+}
